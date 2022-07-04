@@ -57,7 +57,7 @@ h1{
 .button{
     text-decoration: none;
     background: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 10px 40px;
+    padding: 15px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 600;
@@ -105,4 +105,71 @@ h1{
     width: 40%;
     margin-left: 5%;
     padding-left: 2%;
+}
+
+.experience{
+    margin-bottom: 200px;
+    height: 450px;
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 75%;
+}
+
+.experience .experience-heading{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.experience .content{
+    display: flex;
+}
+
+.experience .column1{
+    width: 40%;
+    margin-left: 4.25%;
+    padding-left: 2.75%;
+    box-shadow: 5px 7px 40px grey;
+    height: 380px;
+    padding-top: 20px;
+    padding-right: 10px;
+    border-left: 7px solid tomato;
+}
+
+.experience .column1 h2, .experience .column2 h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 30px 0px 50px 0px;
+}
+
+.experience .column1 h3, .experience .column2 h3{
+    margin: 20px 0px;
+    color: orange;
+    font-weight: 600;
+}
+
+.experience .column1 p, .experience .column2 p{
+    color: dimgray;
+    line-height: 25px;
+}
+
+.experience .column2{
+    width: 40%;
+    margin-left: 4.25%;
+    padding-left: 2.75%;
+    box-shadow: 5px 7px 40px grey;
+    height: 380px;
+    padding-top: 20px;
+    padding-right: 10px;
+    border-left: 7px solid #0000FF;
+}
+
+.experience-heading{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer {
+    text-align: center;
+    color: dimgray;
+    margin-bottom: 30px;
 }
