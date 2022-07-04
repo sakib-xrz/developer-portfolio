@@ -173,3 +173,141 @@ footer {
     color: dimgray;
     margin-bottom: 30px;
 }
+
+/* responsive */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .column-2,.column-1{
+        width: 100%;
+    }
+    .header{
+        display: inline-block;
+        height: auto;
+        background-image: url(img/top-banner.png);
+        background-repeat: no-repeat;
+        margin-bottom: 50px;
+    }
+    .header .column-1{
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+        padding-top: 50px;
+    }
+    .column-1 h1 {
+        margin-bottom: 0;
+    }
+
+    .column-1 p {
+        padding-bottom: 50px;
+        font-size: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .column-2 {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .column-2 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        padding-top: 50px;
+    }
+
+    .img-area {
+        display: none;
+    }
+
+    .text-area {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .text-area p {
+        font-size: 14px;
+    }
+
+    .dream {
+        display: flex;
+        height: auto;
+        background-image: none;
+        margin-bottom: 100px;
+    }
+
+    .text-area h2 {
+        margin-bottom: 20px;
+    }
+
+    .text-area p {
+        color: dimgray;
+        margin-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .experience .content {
+        display: block;
+    }
+
+    .experience .column1 {
+            width: 80%;
+            margin-left: 6%;
+            padding-top: 20px;
+            padding-right: 10px;
+            height: auto;
+            padding-bottom: 20px;
+            margin-bottom: 50px;
+    }
+
+    .experience .column2 {
+        width: 80%;
+        margin-left: 6%;
+        padding-top: 20px;
+        padding-right: 10px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .experience-heading {
+        padding-bottom: 35px;
+    }
+
+    .experience .column1 h2, .experience .column2 h2 {
+        font-size: 34px;
+        font-weight: 600;
+        margin: 25px 0px 20px 0px;
+    }
+
+    .experience {
+        background-image: none;
+        height: auto;
+    }
+
+    .experience {
+        margin-bottom: 70px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
