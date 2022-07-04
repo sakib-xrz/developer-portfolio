@@ -33,6 +33,7 @@ h1{
 .column-1 p{
     padding-bottom: 25px;
     color: dimgray;
+    width: 80%;
 }
 
 .column-1 h1{
@@ -69,7 +70,8 @@ h1{
     display: flex;
     height: 600px;
     background-image: url(img/dream-bg.png);
-    background-position: right;
+    background-position-x: right;
+    background-position-y: 35%;
     background-repeat: no-repeat;
     margin-bottom: 50px;
 }
@@ -99,6 +101,7 @@ h1{
 .text-area p{
     color: dimgray;
     margin-bottom: 25px;
+    width: 80%;
 }
 
 .img-area{
@@ -208,6 +211,7 @@ footer {
         font-size: 14px;
         padding-left: 15px;
         padding-right: 15px;
+        width: auto;
     }
 
     .column-2 {
@@ -237,6 +241,7 @@ footer {
 
     .text-area p {
         font-size: 14px;
+        width: auto;
     }
 
     .dream {
@@ -299,15 +304,3 @@ footer {
         margin-bottom: 70px;
     }
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
